@@ -1,9 +1,29 @@
 .header {
   background-color: rgb(253, 54, 54);
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: baseline;
-  align-content: space-between;
+  align-content: space-around;
   gap: 2rem;
   padding: 1rem;
+}
+.buttons {
+  display: flex;
+  align-content: space-between;
+  gap: 3rem;
+  padding-right: 40rem;
+}
+.mainLogo {
+  padding-left: 10rem;
+}
+.mainLogo p {
+  font-weight: 800;
+}
+.link {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+.link:hover {
+  color: black;
 }
