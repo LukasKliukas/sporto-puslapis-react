@@ -1,0 +1,17 @@
+.card {
+  background-color: brown;
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px black;
+}
+.card h1 {
+  color: aliceblue;
+  margin: 1rem;
+}
+.card p {
+  margin: 0rem 1rem 1rem;
+  text-align: justify;
+  color: aliceblue;
+}
