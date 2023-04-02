@@ -5,7 +5,7 @@ import css from './Home.module.css';
 
 const Home = () => {
   return (
-    <div>
+    <div className={css.mainPage}>
       <Header />
       <div className={css.container}>
         <Card
