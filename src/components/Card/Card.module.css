@@ -5,6 +5,7 @@
   width: 20rem;
   border-radius: 20px;
   box-shadow: 5px 5px 5px black;
+  overflow: hidden;
 }
 .card h1 {
   color: aliceblue;
